@@ -1,1 +1,1 @@
-npm install tailwindcss @tailwindcss/cli
+npm install
