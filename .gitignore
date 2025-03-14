@@ -1,0 +1,74 @@
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Dependências do Composer
+/vendor/
+
+# Dependências do Node.js (caso tenha frontend com Node)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Configurações do PhpStorm
+.idea/
+*.iml
+
+# Cache e logs do Laravel
+/storage/
+bootstrap/cache/
+
+# Cache e arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+stdout.log
+stderr.log
+
+# Arquivos do PHPUnit e cobertura de testes
+phpunit.xml
+phpunit.xml.dist
+/build/
+coverage/
+.phpunit.result.cache
+
+# Relatórios do PHPStan / Psalm
+/phpstan.cache
+/psalm-cache/
+
+# Relatórios do PHP CS Fixer
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Configurações do servidor
+Homestead.yaml
+Homestead.json
+.vagrant/
+
+# Arquivos de deploy
+.deploy/
+.deploy.lock
+
+# Arquivos do IDE Helper (se estiver usando Laravel IDE Helper)
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# Outros arquivos gerados automaticamente
+composer.lock
+public/hot
+public/storage
+storage/oauth-private.key
+storage/oauth-public.key
+storage/*.key
+storage/debugbar/
+storage/framework/cache/data
+storage/framework/sessions
+storage/framework/views
+storage/logs
